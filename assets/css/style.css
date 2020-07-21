@@ -38,6 +38,16 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 
+.logobanner {
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+}
+
+.typed {
+    color: red;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
