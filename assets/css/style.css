@@ -46,7 +46,7 @@ h6 {
     border-radius: 50px;
     right: 15px;
     bottom: 15px;
-    background: #FF8419;
+    background: orangered;
     color: #fff;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
@@ -214,7 +214,7 @@ h6 {
 .nav-menu .active>a,
 .nav-menu li:hover>a {
     color: #fff;
-    background: #FF8E1F;
+    background: orangered;
 }
 
 .nav-menu a:hover span,
@@ -330,6 +330,7 @@ h6 {
 
 .social-media {
     padding: 0;
+    background-color: orangered;
 }
 
 .social-links {
@@ -337,7 +338,7 @@ h6 {
     flex-direction: row;
     flex-direction: row-reverse;
     padding: 4px;
-    background-color: orangered;
+    /* background-color: orangered; */
 }
 
 .social-links a {
@@ -543,7 +544,7 @@ section {
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #FF6C15;
+    border-left: 2px solid orangered;
     position: relative;
 }
 
@@ -1235,7 +1236,7 @@ section {
 #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #FF9E3F;
+    background: orangered;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
