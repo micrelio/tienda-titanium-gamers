@@ -81,7 +81,7 @@ h5 {
 
 .back-to-top:hover {
     color: #fff;
-    background: #0678e3;
+    background: black;
     transition: background 0.2s ease-in-out;
 }
 
@@ -377,7 +377,7 @@ h5 {
 .social-links a {
     font-size: 24px;
     display: inline-block;
-    color: #FF9E3F;
+    color: white;
     line-height: 1;
     margin-right: 20px;
     transition: 0.3s;
@@ -1282,7 +1282,7 @@ section {
 }
 
 #footer .social-links a:hover {
-    background: #C3C3C3;
+    background: black;
     color: #fff;
     text-decoration: none;
 }
