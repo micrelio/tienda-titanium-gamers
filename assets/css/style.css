@@ -330,6 +330,14 @@ h5 {
 .btn {
     background-color: orangered;
     color: black;
+    border: black 1px solid;
+    ;
+}
+
+.btn:hover {
+    background-color: black;
+    color: orangered;
+    border: red 1px solid;
 }
 
 #hero h1 {
