@@ -327,6 +327,11 @@ h5 {
     width: 20%
 }
 
+.btn {
+    background-color: orangered;
+    color: black;
+}
+
 #hero h1 {
     margin: 0;
     font-size: 64px;
