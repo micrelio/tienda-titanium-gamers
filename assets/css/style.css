@@ -266,7 +266,7 @@ h5 {
     background: none;
     font-size: 45px;
     transition: all 0.4s;
-    /* outline: none !important; */
+    outline: none !important;
     line-height: 1;
     cursor: pointer;
     text-align: right;
@@ -309,6 +309,10 @@ h5 {
     }
 } */
 
+.card {
+    background-color: #fff6d5;
+}
+
 #hero:before {
     content: "";
     /* background: rgba(255, 255, 255, 0.5); */
@@ -317,6 +321,10 @@ h5 {
     top: 0;
     left: 0;
     right: 0;
+}
+
+.vip {
+    width: 20%
 }
 
 #hero h1 {
