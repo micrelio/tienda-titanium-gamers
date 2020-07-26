@@ -401,7 +401,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background:orangered;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -411,32 +411,105 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+     Bienvenida
 --------------------------------------------------------------*/
-.about .content h3 {
+.bienvenida .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #728394;
 }
 
-.about .content ul {
+.bienvenida .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.bienvenida .content ul li {
   padding-bottom: 10px;
 }
 
-.about .content ul i {
+.bienvenida .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #0563bb;
 }
 
-.about .content p:last-child {
+.bienvenida .content p:last-child {
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Vip  
+--------------------------------------------------------------*/
+
+.vip .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+
+.vip .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vip .content ul li {
+  padding-bottom: 10px;
+}
+
+.vip .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #0563bb;
+}
+
+.vip .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+  grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+}
+
+.header {
+  background: darkred;
+  grid-column-start: x0;
+  grid-column-end: x3;
+
+  /* Equivalente a */
+  grid-column: x0 / x3;
+}
+
+.sidebar {
+  background: black;
+  grid-row: y1 / y2;
+  color: white;
+}
+
+.content {
+  background: orange;
+  grid-column: x1 / x3;
+  grid-row: y1 / y3;
+}
+
+.footer {
+  background: green;
+  grid-column: x0 / x3;
+  grid-row: y2;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Facts
