@@ -226,9 +226,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: orangered;
 }
 
+.mobile-nav-toggle i:hover {
+  color: black;
+}
 .mobile-nav-active {
   overflow: hidden;
 }
