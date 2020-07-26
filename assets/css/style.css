@@ -240,6 +240,33 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #0563bb;
 }
+/* ------------------------------------------
+         social media menu
+------------------------------------------ */
+.social-media {
+  padding: 0;
+  background-color: orangered;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  padding: 4px;
+  /* background-color: orangered; */
+}
+
+.social-links a {
+  font-size: 24px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #2A2A2A;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -247,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 50vh;
-  background: url("../img/TitaniumRoleplay.png") top right no-repeat;
+  background: url("../img/TitaniumRoleplay.png") no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -260,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.8); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -275,7 +302,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #45505b;
 }
-
+#hero h5 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+}
 #hero p {
   color: #45505b;
   margin: 15px 0 0 0;
@@ -288,23 +321,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-#hero .social-links {
-  margin-top: 30px;
-}
-
-#hero .social-links a {
-  font-size: 24px;
-  display: inline-block;
-  color: #45505b;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
-}
-
-#hero .social-links a:hover {
-  color: #0563bb;
-}
-
 @media (max-width: 992px) {
   #hero {
     text-align: center;
@@ -312,6 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+            /* color: transparent; */
   }
   #hero p {
     margin-top: 10px;
@@ -323,6 +340,27 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.btn {
+  background-color: orangered;
+  color: black;
+  border: black 1px solid;
+  ;
+}
+
+.btn:hover {
+  background-color: black;
+  color: orangered;
+  border: red 1px solid;
+}
+.vip {
+    width: 20%
+}
+.card {
+  background-color: #fff6d5;
+}
+
+
+/*-------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
