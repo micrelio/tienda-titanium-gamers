@@ -341,17 +341,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Sections tienda
 --------------------------------------------------------------*/
 .btn {
   background-color: orangered;
-  color: black;
-  border: black 1px solid;
+  color: white;
+  border: white 1px solid;
   ;
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: white;
   color: orangered;
   border: red 1px solid;
 }
@@ -361,7 +361,10 @@ h1, h2, h3, h4, h5, h6 {
 .card {
   background-color: #fff6d5;
 }
-
+.card:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
 
 /*-------------------------------------------------------*/
 section {
