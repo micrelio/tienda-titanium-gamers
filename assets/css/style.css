@@ -343,11 +343,44 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections tienda
 --------------------------------------------------------------*/
+
+.portfolio-container{
+  
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: orchid;
+  
+  /* padding: 150px; */
+}
+
+.portfolio-item {
+  margin: 10px;
+
+  padding: 0;
+  /* margin-bottom: 0px; */
+  width:18rem;
+  background-color: red;
+}
+ #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
 .btn {
   background-color: orangered;
   color: white;
   border: white 1px solid;
-  ;
+  
 }
 
 .btn:hover {
@@ -359,12 +392,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 20%
 }
 .card {
+  /* margin: 50px; */
+
   background-color: #fff6d5;
+  width: 18rem;
 }
 .card:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
+
 
 /*-------------------------------------------------------*/
 section {
@@ -648,25 +685,7 @@ section {
   border: 2px solid #0563bb;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-.portfolio-item {
-  margin-bottom: 30px;
-  width:15rem;
-}
- #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #272829;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
