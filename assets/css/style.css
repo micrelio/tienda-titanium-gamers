@@ -1133,6 +1133,10 @@ section {
   margin: 0 0 40px 0;
 }
 
+#footer a {
+  color:orangered;
+}
+
 #footer .social-links {
   margin: 0 0 40px 0;
 }
