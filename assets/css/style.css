@@ -431,9 +431,12 @@ text-decoration: none;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
+#portfolio-flters .active  {
+  color: orangered;
+}
 
 #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+ #portfolio-flters li.filter-active {
   color: orangered;
 }
 
