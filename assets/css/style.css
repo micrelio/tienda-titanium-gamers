@@ -64,6 +64,14 @@ h6 {
   color: #fff;
   background: orangered;
   transition: background 0.2s ease-in-out;
+  background: orange;
+color:black;
+background-image: -webkit-linear-gradient(top, orangered, yellow);
+background-image: -moz-linear-gradient(top, orangered, yellow);
+background-image: -ms-linear-gradient(top, orangered, yellow);
+background-image: -o-linear-gradient(top, orangered, yellow);
+background-image: linear-gradient(to bottom, orangered, yellow);
+text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -85,7 +93,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid orangered;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -182,7 +190,7 @@ h6 {
   transition: 0.3s;
 
 
-  background: #eb94d0;
+  background: orange;
   border: white 1px solid;
   background-image: -webkit-linear-gradient(top, yellow, orangered);
   background-image: -moz-linear-gradient(top, yellow, orangered);
@@ -211,7 +219,7 @@ h6 {
 }
 
 .nav-menu .active > a{
-/* background: orangered; */
+background: orange;
 border: rgba(0, 0, 0, 0.25) 1px solid;
 color:black;
 border: rgba(0, 0, 0, 0.15) 1px solid;
@@ -267,15 +275,26 @@ text-decoration: none;
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  
 }
 
 .mobile-nav-toggle i {
   color: orangered;
+  
 }
 
 .mobile-nav-toggle i:hover {
   color: black;
+  
+  background: orange;
+  border: orange 1px solid;
+  background-image: -webkit-linear-gradient(top, yellow, orangered);
+  background-image: -moz-linear-gradient(top, yellow, orangered);
+  background-image: -ms-linear-gradient(top, yellow, orangered);
+  background-image: -o-linear-gradient(top, yellow, orangered);
+  background-image: linear-gradient(to bottom, yellow, orangered);
 }
+
 .mobile-nav-active {
   overflow: hidden;
 }
@@ -387,9 +406,6 @@ text-decoration: none;
 /*--------------------------------------------------------------
 # Sections tienda
 --------------------------------------------------------------*/
-/* .onlyVip{
-font-size: 0.5rem;
-} */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -469,8 +485,8 @@ font-size: 0.5rem;
   /* background-color: orangered;
   color: white;
   border: white 1px solid; */
-  background: #eb94d0;
-  border: white 1px solid;
+  background: orange;
+  border: rgba(255, 166, 0, 0.329) 1px solid;
   background-image: -webkit-linear-gradient(top, yellow, orangered);
   background-image: -moz-linear-gradient(top, yellow, orangered);
   background-image: -ms-linear-gradient(top, yellow, orangered);
@@ -482,7 +498,7 @@ font-size: 0.5rem;
   /* background-color: white;
   color: orangered;
   border: red 1px solid; */
-  /* background: #2079b0; */
+  background: orange;
   border: rgba(0, 0, 0, 0.15) 1px solid;
   background-image: -webkit-linear-gradient(top, orangered, yellow);
   background-image: -moz-linear-gradient(top, orangered, yellow);
@@ -728,7 +744,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid orangered;
   position: relative;
 }
 
@@ -738,7 +754,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: orangered;
   margin-bottom: 10px;
 }
 
@@ -772,7 +788,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid orangered;
 }
 
 /*--------------------------------------------------------------
@@ -1116,18 +1132,21 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: orange;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  border: rgba(255, 166, 0, 0.329) 1px solid;
+
+
 
   /* background-color: orangered;
     color: white;
     border: white 1px solid; */
-  background: #eb94d0;
-  border: white 1px solid;
+  background: orange;
+  /* border: white 1px solid; */
   background-image: -webkit-linear-gradient(top, yellow, orangered);
   background-image: -moz-linear-gradient(top, yellow, orangered);
   background-image: -ms-linear-gradient(top, yellow, orangered);
@@ -1136,8 +1155,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2079b0;
-  border: black 1px solid;
+  background: orange;
+  border: rgba(0, 0, 0, 0.30) 1px solid;
   background-image: -webkit-linear-gradient(top, orangered, yellow);
   background-image: -moz-linear-gradient(top, orangered, yellow);
   background-image: -ms-linear-gradient(top, orangered, yellow);
