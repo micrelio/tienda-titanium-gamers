@@ -42,10 +42,15 @@ h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: orangered;
+  /* background: orangered; */
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
+  background-image: -webkit-linear-gradient(top, yellow, orangered);
+  background-image: -moz-linear-gradient(top, yellow, orangered);
+  background-image: -ms-linear-gradient(top, yellow, orangered);
+  background-image: -o-linear-gradient(top, yellow, orangered);
+  background-image: linear-gradient(to bottom, yellow, orangered);
 }
 
 .back-to-top i {
@@ -57,7 +62,7 @@ h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: black;
+  background: orangered;
   transition: background 0.2s ease-in-out;
 }
 
@@ -205,11 +210,30 @@ h6 {
   }
 }
 
+.nav-menu .active > a{
+/* background: orangered; */
+border: rgba(0, 0, 0, 0.25) 1px solid;
+color:black;
+border: rgba(0, 0, 0, 0.15) 1px solid;
+background-image: -webkit-linear-gradient(top, orangered, yellow);
+background-image: -moz-linear-gradient(top, orangered, yellow);
+background-image: -ms-linear-gradient(top, orangered, yellow);
+background-image: -o-linear-gradient(top, orangered, yellow);
+background-image: linear-gradient(to bottom, orangered, yellow);
+text-decoration: none;
+}
+
 .nav-menu a:hover,
-.nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #fff;
-  background: orangered;
+  /* color: #fff;
+  background: orangered; */
+  border: rgba(0, 0, 0, 0.25) 1px solid;
+  background-image: -webkit-linear-gradient(top, orangered, yellow);
+  background-image: -moz-linear-gradient(top, orangered, yellow);
+  background-image: -ms-linear-gradient(top, orangered, yellow);
+  background-image: -o-linear-gradient(top, orangered, yellow);
+  background-image: linear-gradient(to bottom, orangered, yellow);
+  text-decoration: none;
 }
 
 .nav-menu a:hover span,
@@ -458,8 +482,8 @@ font-size: 0.5rem;
   /* background-color: white;
   color: orangered;
   border: red 1px solid; */
-  background: #2079b0;
-  border: black 1px solid;
+  /* background: #2079b0; */
+  border: rgba(0, 0, 0, 0.15) 1px solid;
   background-image: -webkit-linear-gradient(top, orangered, yellow);
   background-image: -moz-linear-gradient(top, orangered, yellow);
   background-image: -ms-linear-gradient(top, orangered, yellow);
