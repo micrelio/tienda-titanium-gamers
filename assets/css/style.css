@@ -220,7 +220,6 @@ text-decoration: none;
 
 .nav-menu .active > a{
 background: orange;
-border: rgba(0, 0, 0, 0.25) 1px solid;
 color:black;
 border: rgba(0, 0, 0, 0.15) 1px solid;
 background-image: -webkit-linear-gradient(top, orangered, yellow);
@@ -304,7 +303,7 @@ text-decoration: none;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: orangered;
 }
 /* ------------------------------------------
          social media menu
@@ -340,16 +339,16 @@ text-decoration: none;
 #hero {
   width: 100%;
   height: 50vh;
-  background: url("../img/TitaniumRoleplay.png") no-repeat;
+  background: url("../img/TitaniumRoleplay.png") center no-repeat;
   background-size: cover;
   position: relative;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
   }
-}
+} */
 
 #hero:before {
   content: "";
@@ -451,36 +450,6 @@ text-decoration: none;
   background: #fff6d5;
 }
 
-/* .portfolio-container{
-  
-  margin-left: 45px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-color: orchid;
-  
-}
-
-.portfolio-item {
-  margin: 10px;
-
-  padding: 0;
-  width:18rem;
-  background-color: red;
-}
- #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #272829;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-} */
-
 .btn {
   /* background-color: orangered;
   color: white;
@@ -513,12 +482,12 @@ text-decoration: none;
 
 .portfolio-wrap:hover {
   border-color: black;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 1);
 }
 
 /*-------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 0px 0px 0px;
   overflow: hidden;
 }
 
