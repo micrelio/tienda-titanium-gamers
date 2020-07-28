@@ -638,7 +638,7 @@ section {
    /* background: blueviolet; */
   grid-row: y1 / y3;
   color: black;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 5px 0px 15px;
 }
 
 .sinVip {
@@ -648,6 +648,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 5px 0px 5px;
 }
 .lowVip {
   /* background: red; */
@@ -656,6 +657,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 5px 0px 5px;
 }
 
 .vipT {
@@ -665,6 +667,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 5px 0px 5px;
 }
 .footer {
   background: green;
