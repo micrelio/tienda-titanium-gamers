@@ -612,18 +612,18 @@ section {
   margin: 5px 0px 5px 0px ;
 }
 
-.grid .hrTop{
+.container .hrSeparatorSuperior{
   width:100%;
   /* height: 1px; */
   background-color: black;
-  margin: 3px 0px 15px 0px ;
+  margin: 10px 0px 5px 0px ;
 }
 
-.grid .hrBotom{
+.container .hrSeparatorInferior{
   /* width:100%; */
   /* height: 1px; */
   background-color: black;
-  margin: 15px 0px 3px 0px;
+  margin: 5px 0px 10px 0px;
 }
 .header {
   background: darkred;
@@ -638,6 +638,7 @@ section {
    /* background: blueviolet; */
   grid-row: y1 / y3;
   color: black;
+  padding: 0px 0px 0px 15px;
 }
 
 .sinVip {
