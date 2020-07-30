@@ -597,12 +597,20 @@ section {
   margin-bottom: 0;
 }
 
-
+.vip{
+  background-color: coral;
+}
 
 
 /*--------------------------------------------------------------
 # Grid
 --------------------------------------------------------------*/
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color:transparent;
+}
 
 .grid {
   display: grid;
@@ -641,6 +649,7 @@ section {
 
 .sidebar {
    /* background: blueviolet; */
+   
   grid-row: y1 / y3;
   color: black;
   padding: 0px 5px 0px 15px;
