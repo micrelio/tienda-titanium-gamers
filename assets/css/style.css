@@ -405,6 +405,11 @@ text-decoration: none;
 /*--------------------------------------------------------------
 # Sections tienda
 --------------------------------------------------------------*/
+.row{
+  display:flex;
+  justify-content: center;
+  padding:15px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
