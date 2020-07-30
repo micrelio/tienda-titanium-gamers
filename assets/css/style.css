@@ -414,8 +414,8 @@ text-decoration: none;
 }
 .portfolio-item {
   margin-bottom: 0px;
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 200px;
+  max-width: 270px;
 
 }
 
