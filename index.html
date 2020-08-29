@@ -382,12 +382,8 @@
                 <h5 class="card-title">Walton</h5>
                 <p class="card-text">ID 478 </p>
 
-
-                <form id="formularioCompra" method="post" action="" onsubmit="return comprar(comp.value);">
-                  <!-- <label for="comando">Comando: </label>
-                  <input type="text" id="caca" /><br /> -->
-                  
-
+                <!-- FORMULARIO UTIL-->
+                <!-- <form id="formularioCompra" method="post" action="" onsubmit="return comprar(comp.value);"> 
                   <input type="radio" id="" name="comp" value="2"> Precio con VIP:
                   <strong>€2.00</strong></br></br>
                   <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
@@ -395,35 +391,38 @@
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-                <script>
+                -->
+                <!-- <script>
                   function comprar(x) {
                     var formulario = document.getElementById("formularioCompra");
                     var dato = formulario[0];
                     console.log(x)
-                   if (dato.value == "4") {
-                     alert("Enviando el formulario");
-                     formulario.submit();
-                     return false;
-                   } else {
-                     alert("No se envía el formulario");
-                     return false;
-                   }
+                    if (dato.value == "4") {
+                      alert("Enviando el formulario");
+                      formulario.submit();
+                      return false;
+                    } else {
+                      alert("No se envía el formulario");
+
+                      return false;
+                    }
                   }
-                </script>
+                </script> -->
+
+                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
+
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="radio" name="hosted_button_id" value="ZGDJ3TT72ZL9Y" />Precio con
+                  VIP:<strong>€2.00</strong></br></br>
+                  <input type="radio" name="hosted_button_id" value="ZGDJ3TT72ZL9Y" />Precio sin
+                  VIP:<strong>€4.00</strong></br></br>
+                  <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
+                      class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
+                </form>
 
 
-                <script>
 
-                    // if (file == undefined || false || null) {
-                    //   console.log('error', file);
-                    //   alert('selecciona una opcion');
-                    // }
-                    // else {
-                    //   console.log(file);
 
-                    // }
-
-                </script>
               </div>
             </div>
           </div>
