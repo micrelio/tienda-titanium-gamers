@@ -374,160 +374,6 @@
       </div>
       <div class="centrartienda">
         <div class="row " data-aos="fade-up" data-aos-delay="200">
-
-
-
-
-<!-- 
-          <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr"
-            onsubmit="return comprar(ddd.value);"> -->
-
-<form action='login.php' method='post' onsubmit='comprar(this.ddd.value)'>
-
-            <input type="radio" name="ddd" value="1" /> Precio con
-            VIP:<strong>€1.00</strong></br></br>
-            <input type="radio" name="ddd" value="2" /> Precio sin
-            VIP:<strong>€2.00</strong></br></br>
-            <button type="submit" onclick="" value="" class="btn btn-primary btn-pill"><i
-                class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
-          </form>
-
-          <script>
-           function comprar(cuantia) {
-console.log(cuantia);
-
-              // switch (cuantia) {
-              //   case '1':
-              //   var x = 'ZGDJ3TT72ZL9Y'
-              //     //window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGDJ3TT72ZL9Y&source=url";
-
-                  
-              //     break;
-              //   case '2':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DHCL92CD4TR5U&source=url";
-              //     alert("");
-              //     break;
-              //   case '3':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YBL7S92LWMD9C&source=url";
-              //     alert("");
-              //     break;
-              //   case '4':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EJDHLKKDF3MAW&source=url";
-              //     alert("");
-              //     break;
-              //   case '5':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TK3G5C82RELJ&source=url";
-              //     alert("");
-              //     break;
-              //   case '6':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8UZYSAGAQ9HUU&source=url";
-              //     alert("");
-              //     break;
-              //   case '7':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=393M2EPS3RZ7W&source=url";
-              //     alert("");
-              //     break;
-              //   case '8':
-              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NKQAAEZFDCPW6&source=url";
-              //     alert("");
-              //     break;
-              //   case '9':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '10':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '11':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '12':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '13':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '14':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '15':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '16':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '17':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '18':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '19':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-              //   case '20':
-              //     window.location.href = "";
-              //     alert("");
-              //     break;
-
-              //   default:
-              //     alert("Selecciona una opción de pago");
-
-              //     return false;
-              //     break;
-                 
-             // }
-            //  <div id="preloader"></div>
-            //setTimeout(function() { alert("Soy una tostada");}, 100);
-              window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+x+"&source=url";
-            alert("Va a ser redirigido a la cuenta paypal");
-            }
-     
-             //setTimeout(() => {  window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+x+"&source=url";}, 5000);
-              // var formulario = document.getElementById("formularioCompra");
-              // var dato = formulario[0];
-              // console.log(x)
-              // if (dato.value == "4") {
-              //   alert("Enviando el formulario");
-              //   formulario.submit();
-              //   return false;
-              // } else {
-              //   alert("No se envía el formulario");
-
-              //   return false;
-              // }
-            //}
-          </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div class="col-7 col-sm-3 col-md-3 col-lg-2 portfolio-item">
             <div class="portfolio-wrap">
               <img class="card-img-top" src="assets/img/samp/vehiculos/walton.jpg" alt="Turismo">
@@ -536,46 +382,106 @@ console.log(cuantia);
                 <p class="card-text">ID 478 </p>
 
                 <!-- FORMULARIO UTIL-->
-                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);"> 
-                  <input type="radio" id="" name="comp" value="2"> Precio con VIP:
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);">
+                  <input type="radio" id="" name="comp" value="1"> Precio con VIP:
                   <strong>€2.00</strong></br></br>
                   <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
                   <strong>€4.00</strong></br></br>
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-               
-                <script>
-                  function comprar(x) {
-                    var formulario = document.getElementById("formularioCompra");
-                    var dato = formulario[0];
-                    console.log(x)
-                    if (x == "4") {
-                      window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TK3G5C82RELJ&source=url";
-              
-                    //  window.alert("Enviando el formulario");
-                     // formulario.submit();
-                      return false;
-                    } else {
-                      alert("No se envía el formulario");
 
-                      return false;
+                <script>
+                  function comprar(cantidad) {
+                    console.log('sssssssssssssssssssssssssss')
+
+                    switch (cantidad) {
+                      case '1':
+                        var identificador = 'ZGDJ3TT72ZL9Y'
+                        break;
+                      case '2':
+                        var identificador = 'DHCL92CD4TR5U'
+                        break;
+                      case '3':
+                        var identificador = 'YBL7S92LWMD9C'
+                        break;
+                      case '4':
+                        var identificador = 'EJDHLKKDF3MAW'
+                        break;
+                      case '5':
+                        var identificador = '7TK3G5C82RELJ'
+                        break;
+                      case '6':
+                        var identificador = '8UZYSAGAQ9HUU'
+                        break;
+                      case '7':
+                        var identificador = '393M2EPS3RZ7W'
+                        break;
+                      case '8':
+                        var identificador = 'NKQAAEZFDCPW6'
+                        break;
+                      case '9':
+                        var identificador = ''
+
+                        break;
+                      case '10':
+                        var identificador = ''
+
+                        break;
+                      case '11':
+                        var identificador = ''
+
+                        break;
+                      case '12':
+                        var identificador = ''
+
+                        break;
+                      case '13':
+                        var identificador = ''
+
+                        break;
+                      case '14':
+                        var identificador = ''
+
+                        break;
+                      case '15':
+                        var identificador = ''
+
+                        break;
+                      case '16':
+                        var identificador = ''
+
+                        break;
+                      case '17':
+                        var identificador = ''
+
+                        break;
+                      case '18':
+                        var identificador = ''
+
+                        break;
+                      case '19':
+                        var identificador = ''
+
+                        break;
+                      case '20':
+                        var identificador = ''
+
+                        break;
+
+                      default:
+                        alert("Selecciona una opción de pago");
+
+                        return false;
+                        break;
+
                     }
+                    window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=" + identificador + "&source=url";
+                    alert("Va a ser redirigido a la cuenta paypal");
+                    return false;
                   }
                 </script>
 
-                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio con
-                  VIP:<strong>€2.00</strong></br></br>
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio sin
-                  VIP:<strong>€4.00</strong></br></br>
-                  <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
-                      class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
-                </form>
 
 
 
@@ -590,19 +496,14 @@ console.log(cuantia);
               <div class="card-body">
                 <h5 class="card-title">Walton</h5>
                 <p class="card-text">ID 478 </p>
-                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio con
-                  VIP:<strong>€2.00</strong></br></br>
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio sin
-                  VIP:<strong>€4.00</strong></br></br>
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);">
+                  <input type="radio" id="" name="comp" value="1"> Precio con VIP:
+                  <strong>€2.00</strong></br></br>
+                  <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
+                  <strong>€4.00</strong></br></br>
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-
               </div>
             </div>
           </div>
@@ -612,19 +513,14 @@ console.log(cuantia);
               <div class="card-body">
                 <h5 class="card-title">Walton</h5>
                 <p class="card-text">ID 478 </p>
-                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio con
-                  VIP:<strong>€2.00</strong></br></br>
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio sin
-                  VIP:<strong>€4.00</strong></br></br>
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);">
+                  <input type="radio" id="" name="comp" value="1"> Precio con VIP:
+                  <strong>€2.00</strong></br></br>
+                  <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
+                  <strong>€4.00</strong></br></br>
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-
               </div>
             </div>
           </div>
@@ -634,19 +530,14 @@ console.log(cuantia);
               <div class="card-body">
                 <h5 class="card-title">Walton</h5>
                 <p class="card-text">ID 478 </p>
-                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio con
-                  VIP:<strong>€2.00</strong></br></br>
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio sin
-                  VIP:<strong>€4.00</strong></br></br>
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);">
+                  <input type="radio" id="" name="comp" value="1"> Precio con VIP:
+                  <strong>€2.00</strong></br></br>
+                  <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
+                  <strong>€4.00</strong></br></br>
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-
               </div>
             </div>
           </div>
@@ -656,19 +547,14 @@ console.log(cuantia);
               <div class="card-body">
                 <h5 class="card-title">Walton</h5>
                 <p class="card-text">ID 478 </p>
-                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio con
-                  VIP:<strong>€2.00</strong></br></br>
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio sin
-                  VIP:<strong>€4.00</strong></br></br>
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);">
+                  <input type="radio" id="" name="comp" value="1"> Precio con VIP:
+                  <strong>€2.00</strong></br></br>
+                  <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
+                  <strong>€4.00</strong></br></br>
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-
               </div>
             </div>
           </div>
@@ -678,19 +564,14 @@ console.log(cuantia);
               <div class="card-body">
                 <h5 class="card-title">Walton</h5>
                 <p class="card-text">ID 478 </p>
-                <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
-
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio con
-                  VIP:<strong>€2.00</strong></br></br>
-                  <input type="radio" name="hosted_button_id"
-                    value="valor boton tipo: ZGDJ3TT72ZL9Y este es el de 1 €" /> Precio sin
-                  VIP:<strong>€4.00</strong></br></br>
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);">
+                  <input type="radio" id="" name="comp" value="1"> Precio con VIP:
+                  <strong>€2.00</strong></br></br>
+                  <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
+                  <strong>€4.00</strong></br></br>
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-
               </div>
             </div>
           </div>
