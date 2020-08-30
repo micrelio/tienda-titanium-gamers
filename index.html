@@ -375,6 +375,148 @@
       <div class="centrartienda">
         <div class="row " data-aos="fade-up" data-aos-delay="200">
 
+
+
+
+
+          <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr"
+            onsubmit="return comprar(ddd.value);">
+
+            <input type="radio" name="ddd" value="1" /> Precio con
+            VIP:<strong>€1.00</strong></br></br>
+            <input type="radio" name="ddd" value="2" /> Precio sin
+            VIP:<strong>€2.00</strong></br></br>
+            <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
+                class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
+          </form>
+
+          <script>
+            function comprar(cuantia) {
+           //   window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGDJ3TT72ZL9Y&source=url";
+              switch (cuantia) {
+                case '1':
+                  window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGDJ3TT72ZL9Y&source=url";
+                  alert("111111111111111111")
+                  console.log('1€')
+                  break;
+                case '2':
+                  window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DHCL92CD4TR5U&source=url";
+                  alert("222222222");
+                                   break;
+                case '3':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '4':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '5':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '6':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '7':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '8':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '9':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '10':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '11':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '12':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '13':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '14':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '15':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '16':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '17':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '18':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '19':
+                  window.location.href = "";
+                  alert("");
+                  break;
+                  case '20':
+                  window.location.href = "";
+                  alert("");
+                  break;
+
+                default:
+                  alert("Selecciona una opción de pago");
+
+                  return false;
+                  break;
+              }
+
+              // var formulario = document.getElementById("formularioCompra");
+              // var dato = formulario[0];
+              // console.log(x)
+              // if (dato.value == "4") {
+              //   alert("Enviando el formulario");
+              //   formulario.submit();
+              //   return false;
+              // } else {
+              //   alert("No se envía el formulario");
+
+              //   return false;
+              // }
+            }
+          </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div class="col-7 col-sm-3 col-md-3 col-lg-2 portfolio-item">
             <div class="portfolio-wrap">
               <img class="card-img-top" src="assets/img/samp/vehiculos/walton.jpg" alt="Turismo">
@@ -1502,7 +1644,7 @@
               <form id="formularioCompra" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                 <input type="radio" name="hosted_button_id" value="meter el de su boton ZGDJ3TT72ZL9Y" /> Precio con
                 VIP: <strong>20€</strong></br></br>
-                <input type="radio" name="hosted_button_id" value="meter el de su boton ZGDJ3TT72ZL9Y" /> Precio sin 
+                <input type="radio" name="hosted_button_id" value="meter el de su boton ZGDJ3TT72ZL9Y" /> Precio sin
                 VIP: <strong>25€</strong></br></br>
                 <button type="submit" onclick="" value="" class="btn btn-primary btn-pill"><i
                     class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
