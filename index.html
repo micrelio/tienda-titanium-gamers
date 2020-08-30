@@ -378,111 +378,122 @@
 
 
 
-
+<!-- 
           <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr"
-            onsubmit="return comprar(ddd.value);">
+            onsubmit="return comprar(ddd.value);"> -->
+
+<form action='login.php' method='post' onsubmit='comprar(this.ddd.value)'>
 
             <input type="radio" name="ddd" value="1" /> Precio con
             VIP:<strong>€1.00</strong></br></br>
             <input type="radio" name="ddd" value="2" /> Precio sin
             VIP:<strong>€2.00</strong></br></br>
-            <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
+            <button type="submit" onclick="" value="" class="btn btn-primary btn-pill"><i
                 class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
           </form>
 
           <script>
-            function comprar(cuantia) {
-           //   window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGDJ3TT72ZL9Y&source=url";
-              switch (cuantia) {
-                case '1':
-                  window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGDJ3TT72ZL9Y&source=url";
-                  alert("111111111111111111")
-                  console.log('1€')
-                  break;
-                case '2':
-                  window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DHCL92CD4TR5U&source=url";
-                  alert("222222222");
-                                   break;
-                case '3':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '4':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '5':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '6':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '7':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '8':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '9':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '10':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '11':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '12':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '13':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '14':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '15':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '16':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '17':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '18':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '19':
-                  window.location.href = "";
-                  alert("");
-                  break;
-                  case '20':
-                  window.location.href = "";
-                  alert("");
-                  break;
+           function comprar(cuantia) {
+console.log(cuantia);
 
-                default:
-                  alert("Selecciona una opción de pago");
+              // switch (cuantia) {
+              //   case '1':
+              //   var x = 'ZGDJ3TT72ZL9Y'
+              //     //window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZGDJ3TT72ZL9Y&source=url";
 
-                  return false;
-                  break;
-              }
+                  
+              //     break;
+              //   case '2':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DHCL92CD4TR5U&source=url";
+              //     alert("");
+              //     break;
+              //   case '3':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YBL7S92LWMD9C&source=url";
+              //     alert("");
+              //     break;
+              //   case '4':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EJDHLKKDF3MAW&source=url";
+              //     alert("");
+              //     break;
+              //   case '5':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TK3G5C82RELJ&source=url";
+              //     alert("");
+              //     break;
+              //   case '6':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8UZYSAGAQ9HUU&source=url";
+              //     alert("");
+              //     break;
+              //   case '7':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=393M2EPS3RZ7W&source=url";
+              //     alert("");
+              //     break;
+              //   case '8':
+              //     window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NKQAAEZFDCPW6&source=url";
+              //     alert("");
+              //     break;
+              //   case '9':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '10':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '11':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '12':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '13':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '14':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '15':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '16':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '17':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '18':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '19':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
+              //   case '20':
+              //     window.location.href = "";
+              //     alert("");
+              //     break;
 
+              //   default:
+              //     alert("Selecciona una opción de pago");
+
+              //     return false;
+              //     break;
+                 
+             // }
+            //  <div id="preloader"></div>
+            //setTimeout(function() { alert("Soy una tostada");}, 100);
+              window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+x+"&source=url";
+            alert("Va a ser redirigido a la cuenta paypal");
+            }
+     
+             //setTimeout(() => {  window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+x+"&source=url";}, 5000);
               // var formulario = document.getElementById("formularioCompra");
               // var dato = formulario[0];
               // console.log(x)
@@ -495,7 +506,7 @@
 
               //   return false;
               // }
-            }
+            //}
           </script>
 
 
@@ -525,7 +536,7 @@
                 <p class="card-text">ID 478 </p>
 
                 <!-- FORMULARIO UTIL-->
-                <!-- <form id="formularioCompra" method="post" action="" onsubmit="return comprar(comp.value);"> 
+                <form id="formularioCompra" method="post" action="comprar.php" onsubmit="return comprar(comp.value);"> 
                   <input type="radio" id="" name="comp" value="2"> Precio con VIP:
                   <strong>€2.00</strong></br></br>
                   <input type="radio" id="" name="comp" value="4"> Precio sin VIP:
@@ -533,15 +544,17 @@
                   <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                       class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
                 </form>
-                -->
-                <!-- <script>
+               
+                <script>
                   function comprar(x) {
                     var formulario = document.getElementById("formularioCompra");
                     var dato = formulario[0];
                     console.log(x)
-                    if (dato.value == "4") {
-                      alert("Enviando el formulario");
-                      formulario.submit();
+                    if (x == "4") {
+                      window.location.href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7TK3G5C82RELJ&source=url";
+              
+                    //  window.alert("Enviando el formulario");
+                     // formulario.submit();
                       return false;
                     } else {
                       alert("No se envía el formulario");
@@ -549,7 +562,7 @@
                       return false;
                     }
                   }
-                </script> -->
+                </script>
 
                 <form id="formularioCompra" method="post" action="https://www.paypal.com/cgi-bin/webscr">
 
