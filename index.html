@@ -75,7 +75,7 @@
       <a href="https://discord.gg/9HCCg4Y" class=""><i class="bx bxl-discord"></i></a>
       <a href="https://www.instagram.com/titaniumgamers_oficial/?hl=es" class=""><i class="bx bxl-instagram"></i></a>
       <a href="https://twitter.com/titaniumgamers" class=""><i class="bx bxl-twitter"></i></a>
-      <a href="https://www.facebook.com/titaniumrp/" class=""><i class="bx bxl-facebook"></i></a>
+      <a href="https://www.facebook.com/titaniumgamers.es" class=""><i class="bx bxl-facebook"></i></a>
 
     </div>
   </section>
@@ -155,10 +155,10 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <img class="logoVip" src="assets/img/samp/vip.png" alt="Turismo">
+          
           <!-- <h2>VIP</h2> -->
-          <p>A continuación, podrás ver los distintos paquetes VIP disponibles en TitaniumGamers, sus
-            beneficios según la aportación, estos
-            serán destinados al mantenimiento del servidor.</p>
+          <p>Te mostramos los distintos tipos de VIP a los que puedes tener acceso en <a href="https://TitaniumGamers.com">TitaniumGamers</a>, sus
+            beneficios según la aportación, el dinero recaudado será destinado al mantenimiento y la mejora del servidor.</p>
         </div>
 
         <div class="grid">
@@ -330,10 +330,10 @@
               <div class="portfolio-wrap">
                 <img class="card-img-top" src="assets/img/samp/vip/vipPlata.jpg" alt="Turismo">
                 <div class="card-body">
-                  <h5 class="card-title">VIP</h5>
+                  <h5 class="card-title"><strong>VIP low cost</strong></h5>
                   <form id="formularioCompra" method="post" action="https://titaniumgamers.com/"
                     onsubmit="return comprar(comp.value);">
-                    <input type="hidden" id="" name="comp" value="6"> Precio: <strong>6€</strong></br></br>
+                    <input type="hidden" id="" name="comp" value="ND"> Precio: <strong>6€</strong></br></br>
                     <!-- <input type="radio" id="" name="comp" value="2"> Precio sin VIP: <strong>2€</strong></br></br> -->
                     <button type="submit" onclick="" value="comp.value" class="btn btn-primary btn-pill"><i
                         class="fa fa-shopping-cart text-white"></i>&ensp;Comprar</button>
@@ -345,7 +345,7 @@
               <div class="portfolio-wrap">
                 <img class="card-img-top" src="assets/img/samp/vip/vipOro.jpg" alt="Turismo">
                 <div class="card-body">
-                  <h5 class="card-title">VIP</h5>
+                  <h5 class="card-title"><strong>VIP TITANIUM</strong></h5>
                   <form id="formularioCompra" method="post" action="https://titaniumgamers.com/"
                     onsubmit="return comprar(comp.value);">
                     <input type="hidden" id="" name="comp" value="11"> Precio: <strong>11€</strong></br></br>
@@ -1825,7 +1825,7 @@
         <a href="https://www.instagram.com/titaniumgamers_oficial/?hl=es" class="instagram"><i
             class="bx bxl-instagram"></i></a>
         <a href="https://twitter.com/titaniumgamers" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/titaniumrp/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/titaniumgamers.es" class="facebook"><i class="bx bxl-facebook"></i></a>
         <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -1833,7 +1833,7 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Titanium Gamers</span></strong>. All Rights Reserved
+        &copy; Copyright <a href="https://titaniumgamers.com/" class="facebook"><strong><span>Titanium Gamers</span></strong></a>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -1871,6 +1871,10 @@
     console.log('sssssssssssssssssssssssssss')
 
     switch (cantidad) {
+      case 'ND':
+      alert("Actualmente no disponible");
+        return false;
+        break;
       case '1':
         var identificador = 'ZGDJ3TT72ZL9Y'
         break;
