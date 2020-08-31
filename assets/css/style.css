@@ -419,7 +419,12 @@ flex-direction: column;
 }
 
 .row{
-
+display: flex;
+/* flex-direction: row;
+flex-wrap: wrap;
+align-items: center; */
+/* justify-content: space-between; */
+justify-content: space-around;
   padding:15px;
   
 }
@@ -427,7 +432,7 @@ flex-direction: column;
   margin-bottom: 0px;
   min-width: 240px;
   /* max-width: 270px; */
-  max-width: 30%;
+  max-width:350px;
 
 }
 
