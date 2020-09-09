@@ -340,6 +340,14 @@ h6 {
   background-size: cover;
   position: relative;
 }
+.banner{
+  width: 100%;
+  background-size: cover;
+  background: center no-repeat;
+  position: relative;
+  display: none;
+
+}
 
 /* @media (min-width: 992px) {
   #hero {
