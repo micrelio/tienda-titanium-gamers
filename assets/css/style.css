@@ -741,17 +741,6 @@ section {
   background-image: linear-gradient(to bottom, orangered, yellow);
   text-decoration: none;
 }
-
-/*---------------------------------------
-#   footer
----------------------------------------*/
-
-.footer {
-  background: green;
-  grid-column: x0 / x3;
-  grid-row: y2;
-}
-
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1275,7 +1264,15 @@ section {
     transform: rotate(360deg);
   }
 }
+/*---------------------------------------
+  .footer
+---------------------------------------*/
 
+.footer {
+  background: green;
+  grid-column: x0 / x3;
+  grid-row: y2;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1284,7 +1281,7 @@ section {
   color: white;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 2rem 0rem 0rem 0rem;
 }
 
 #footer h3 {
@@ -1335,10 +1332,33 @@ section {
 #footer .copyright {
   margin: 0 0 5px 0;
 }
-
 #footer .credits {
   font-size: 13px;
 }
+
+#footer .politicas {
+  bottom: 0px;
+  margin: 1rem 0rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* color: red; */
+  /* padding: 1rem; */
+  /* background-color: blue; */
+}
+ #footer .politicas p {
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+  .politicas a {
+    text-decoration: none;
+  }
+
+/*--------------------------------------------------------------
+# cookies
+--------------------------------------------------------------*/
 
 #cajacookies {
   display: flex;
